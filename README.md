@@ -1,3 +1,3 @@
-# simon
-https://simon.haileyjohnson.click
-Here is my simon repository
+# simon-javascript
+
+This deliverable demonstrates the use of basic JavaScript for interactivity.

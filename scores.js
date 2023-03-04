@@ -2,7 +2,7 @@ function loadScores() {
   let scores = [];
   const scoresText = localStorage.getItem('scores');
   if (scoresText) {
-    scores = JSON.parse(scoresText); //parse to rehydrate into an array if it exists...
+    scores = JSON.parse(scoresText);
   }
 
   const tableBodyEl = document.querySelector('#scores');
@@ -28,7 +28,7 @@ function loadScores() {
       tableBodyEl.appendChild(rowEl);
     }
   } else {
-    tableBodyEl.innerHTML = '<tr><td colSpan=4>Be the first to score</td></tr>'; //basic thing if we don't have scores
+    tableBodyEl.innerHTML = '<tr><td colSpan=4>Be the first to score</td></tr>';
   }
 }
 
